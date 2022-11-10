@@ -20,8 +20,9 @@ class Styles {
       hoverColor:
           isDarkTheme ? const Color(0xffEAECF0) : const Color(0xff667085),
 
-      //focusColor: isDarkTheme ? Color(0xff0B2512) : Color(0xffA8DAB5),
-      // disabledColor: Colors.grey,
+      focusColor:
+          isDarkTheme ? const Color(0xffEAECF0) : const Color(0xff1C1917),
+      disabledColor: isDarkTheme ? const Color(0xffF2F4F7) : Colors.black,
       // textSelectionColor: isDarkTheme ? Colors.white : Colors.black,
       cardColor:
           isDarkTheme ? const Color(0xFF1E2C41) : const Color(0xffF2F4F7),
