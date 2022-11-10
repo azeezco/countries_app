@@ -17,13 +17,16 @@ class Styles {
       textTheme: GoogleFonts.montserratTextTheme(
         Theme.of(context).textTheme,
       ),
-      //hoverColor: isDarkTheme ? Color(0xff3A3A3B) : Color(0xff4285F4),
+      hoverColor:
+          isDarkTheme ? const Color(0xffEAECF0) : const Color(0xff667085),
 
       //focusColor: isDarkTheme ? Color(0xff0B2512) : Color(0xffA8DAB5),
       // disabledColor: Colors.grey,
       // textSelectionColor: isDarkTheme ? Colors.white : Colors.black,
-      // cardColor: isDarkTheme ? Color(0xFF151515) : Color(0xFFE5E5E5),
-      //canvasColor: isDarkTheme ? Colors.black : Colors.grey[50],
+      cardColor:
+          isDarkTheme ? const Color(0xFF1E2C41) : const Color(0xffF2F4F7),
+      canvasColor:
+          isDarkTheme ? const Color(0xFFD0D5DD) : const Color(0xFF1C1917),
       //brightness: isDarkTheme ? Brightness.dark : Brightness.light,
       // buttonTheme: Theme.of(context).buttonTheme.copyWith(
       //    colorScheme: isDarkTheme ? ColorScheme.dark() : ColorScheme.light()),
@@ -37,4 +40,6 @@ class Styles {
       const TextStyle(fontSize: 16, fontWeight: FontWeight.w500);
   static TextStyle headLine1TextStyle =
       const TextStyle(fontSize: 20, fontWeight: FontWeight.w700);
+  static TextStyle searchTextStyle =
+      const TextStyle(fontSize: 12, fontWeight: FontWeight.w300);
 }
