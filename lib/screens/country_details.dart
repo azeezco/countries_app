@@ -3,6 +3,7 @@ import 'package:countries_app/utils/app_styles.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
+import 'package:gap/gap.dart';
 
 class CountryDetailsView extends StatelessWidget {
   const CountryDetailsView({super.key, required this.country});
@@ -29,16 +30,16 @@ class CountryDetailsView extends StatelessWidget {
         ),
         body: ListView(
           children: [
-            Container(
-              child: Image.network('https://flagcdn.com/w320/ng.png'),
-            ),
+            Image.network('https://flagcdn.com/w320/ng.png'),
+            const Gap(30),
             Text(
-              country.name,
+              "country.name",
               style: Styles.detailsTextStyle
                   .copyWith(color: Theme.of(context).highlightColor),
             ),
+            const Gap(10),
             Text(
-              country.capital,
+              "country.capital",
               style: Styles.detailsTextStyle
                   .copyWith(color: Theme.of(context).highlightColor),
             )

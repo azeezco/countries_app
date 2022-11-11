@@ -41,6 +41,8 @@ class Styles {
       const TextStyle(fontSize: 16, fontWeight: FontWeight.w500);
   static TextStyle headLine1TextStyle =
       const TextStyle(fontSize: 20, fontWeight: FontWeight.w700);
+  static TextStyle headLine2TextStyle =
+      GoogleFonts.pacifico(fontSize: 24, fontWeight: FontWeight.w800);
   static TextStyle searchTextStyle =
       const TextStyle(fontSize: 12, fontWeight: FontWeight.w300);
 }
